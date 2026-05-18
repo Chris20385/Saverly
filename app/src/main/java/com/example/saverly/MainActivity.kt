@@ -323,3 +323,7 @@ fun BottomNav(goHome: () -> Unit, goMiddle: () -> Unit, goSettings: () -> Unit) 
         Text("⚙", color = Color.White, fontSize = 42.sp, modifier = Modifier.clickable { goSettings() })
     }
 }
+
+fun calculateTotalSpending(food: Int, transport: Int, games: Int): Int {
+    return food + transport + games
+}
