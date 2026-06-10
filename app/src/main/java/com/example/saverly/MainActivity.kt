@@ -80,7 +80,7 @@ fun HomeScreen(goAdd: () -> Unit, goHistory: () -> Unit, goSettings: () -> Unit)
     ) {
         Text("Todays Spending", color = Color.White, fontSize = 34.sp, fontWeight = FontWeight.Bold)
 
-        Spacer(modifier = Modifier.height(50.dp))
+        Spacer(modifier = Modifier.height(60.dp))
 
         WhiteBox("\$50", Modifier.size(190.dp, 110.dp))
 
